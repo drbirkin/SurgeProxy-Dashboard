@@ -57,7 +57,9 @@ function view() {
     if (!user.classList.contains("col-lg-12")) {
       user.classList.remove("col-lg-5");
       user.classList.add("col-lg-12");
-    } else if (!proxy.classList.contains("col-lg-12")) {
+    } 
+    
+    if (!proxy.classList.contains("col-lg-12")) {
       proxy.classList.remove("col-lg-7");
       proxy.classList.add("col-lg-12");
     } else
